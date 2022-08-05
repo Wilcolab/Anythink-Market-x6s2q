@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone the [Anythink Market](https://github.com/ObelusFamily/Anythink-Market-x6s2q) repo.
+2. Install [Docker/Docker Desktop](https://docs.docker.com/get-docker/)
+3. Confirm installation by running ``docker-compose -v`` and ``docker -v``.  Note, you might need to install docker-compose via the Docker Desktop's settings, if it doesn't install alongside it.
+4. Run ``docker-compose up`` in the directory you cloned Anythink Market into.
+5. Visit http://localhost:3000/api/ping to confirm the docker is running.
+6. Create a new user at http://localhost:3001/register.
